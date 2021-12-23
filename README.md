@@ -2,6 +2,12 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.1.
 
+## Json-Server (Fake Rest API)
+
+Start JSON Server: Run `json-server --watch db.json`
+
+Endpoints: `http://localhost:3000/senadores` , `http://localhost:3000/tipos` and `http://localhost:3000/despesasSenadores`
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.

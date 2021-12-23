@@ -1,0 +1,11 @@
+<div class="content">
+  <mat-toolbar color="warn">
+    <span>Despesas dos senadores (2019)</span>
+  </mat-toolbar>
+
+  <mat-nav-list>
+    <a mat-list-item *ngFor="let senador of senadores | async" (click)="navigate(senador.id)">
+      {{senador.nomeSenador}}
+    </a>
+  </mat-nav-list>
+</div>
